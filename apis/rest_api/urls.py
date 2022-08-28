@@ -18,4 +18,5 @@ from apis.rest_api import views
 
 urlpatterns = [
     url(r'^debug/', views.ClassBasedView.as_view(), name='debug'),
+      url(r'^test/', views.TestView.as_view()),
 ]
