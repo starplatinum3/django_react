@@ -125,7 +125,12 @@ https://acc15t4bm5.feishu.cn/docx/doxcnypmsvSDDWAXbMjBoRTBWVf
 git remote -v
 
 git remote add  gitee https://gitee.com/starplatinum111/django_react.git
-git add .
+__pycache__
+
 git commit -m "django react jquery post"
+
+
+git add .
+git commit -m "ignore __pycache__"
 git push gitee master
 git push origin master
